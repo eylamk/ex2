@@ -63,20 +63,23 @@ html,body{
     text-align: left;
     border-radius: 2px;
 }
-.whiteSquare{
+.content{
     width: 80%;
-    height: 15%;
-    border:solid black 2px;
-    margin-bottom: 10px;
+    height: 12%;
+    min-height: 30px;
+    border:solid rgb(245,245,245) 1px;
+    border-radius: 2px;
+    margin-bottom: 5px;
     margin-top: 10px;
     display: inherit;
     background-color: rgb(245,245,245);
+    box-shadow: 0px 5px 5px rgba(245, 245, 245, 0.466);
 }
-.main_menu{
+.main-menu{
     height: calc(100% - 85px);
     width: 100%;
 }
-.space_for_squares{
+.content-space{
     overflow: scroll;
     overflow-y: auto; 
     overflow-x: hidden;
@@ -87,4 +90,18 @@ html,body{
     margin-bottom: -4px; 
     text-align: center;
     background-color: rgb(66,66,66);
+}
+.floating-button{
+    border: 0px;
+    border-radius: 50%;
+    background-color: rgb(255,145,0);
+    width: 40px;
+    min-width: 20px;
+    height: 40px;
+    min-height: 20px;
+    position: fixed;
+    object-position: 90%;
+    bottom: 2%;
+    right: 2%;
+    cursor: pointer;
 }
