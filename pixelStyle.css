@@ -1,0 +1,86 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height:15%;
+    min-height: 70px;
+    background-color: rgb(3, 169, 244);  
+    display: inline-block;
+}
+.envelope{
+    display: inline;
+    margin: 18px;
+    margin-left: 22px;
+}
+.header-mail{
+    display: inline;
+    margin-top: 20px;
+}
+.toolbar{
+    background-color: rgb(33, 33, 33);  
+    width: 200px;
+    height:100%;
+    display: inline-block;
+    margin-right: -4px;
+    margin-bottom: -4px; 
+    vertical-align: top;
+    text-align: left;
+}
+.tool-buttons{
+    border: none;
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;  
+    width: 97%;
+    background-color: rgb(255,145,0);
+    text-align: left;
+    border-radius: 2px;
+}
+.tool-buttons-not{
+    border: none;
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;  
+    width: 97%;
+    background-color: rgb(117,117,117);
+    text-align: left;
+    border-radius: 2px;
+}
+.whiteSquare{
+    width: 80%;
+    height: 15%;
+    border:solid black 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inherit;
+    background-color: rgb(245,245,245);
+}
+.main_menu{
+    height: 85%;
+    width: 100%;
+    
+}
+.space_for_squares{
+    overflow: scroll;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    height: 100%;
+    width: calc(100% - 200px);
+    display: inline-block;
+    margin-right: -4px;
+    margin-bottom: -4px; 
+    text-align: center;
+    background-color: rgb(66,66,66);
+}
